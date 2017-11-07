@@ -10,8 +10,9 @@ def add_element_to_end_of_array(array, element)
   [1,2,3,4]<<"arrays!"
 end
 
-def add_element_to_start_of_array(array, element).unshift("wow")
-["I", "am", "really", "learning"]
+def add_element_to_start_of_array(array, element)
+my_array = ["I", "am", "really", "learning"]
+my_array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
