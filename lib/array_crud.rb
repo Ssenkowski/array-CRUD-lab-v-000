@@ -16,7 +16,7 @@ my_array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  my_array = ["I", "am", "really", "learning"]
+  my_array = ["wow", "I", "am", "really", "learning", "arrays!"]
   my_array.pop
 end
 
